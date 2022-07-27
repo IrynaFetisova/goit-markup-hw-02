@@ -120,16 +120,18 @@ ul {
 .addres-nav .link {
     font-size: 14px;
     line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);}
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;}
 
 .addres-nav .add-link {
     font-size: 14px;
     line-height: 1.71;
-    color: var(--primary-bg-color);}
+    color: var(--primary-bg-color);
+    text-decoration: none;}
 
 .footer {
-    background-color: #2F303A;  
-}
+    background-color: #2F303A;}
+    
 /* portfolio */
 
 .work-list .title {
@@ -137,9 +139,11 @@ ul {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;}
+    letter-spacing: 0.06em;
+    }
 
 .work-list .text {
     color: var(--primary-tex-color);
     font-size: 16px;
-    line-height: 1.8;}
+    line-height: 1.8;
+}
