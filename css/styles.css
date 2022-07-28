@@ -25,6 +25,7 @@ ul {
 
 .blue {color: var(--accent-color) ;}
 .studia {color:#000000;}
+.studw {color:var(--primary-bg-color) ;}
 
 /* site nav */
 .site-nav .link {
@@ -69,8 +70,8 @@ ul {
 .section-title {
     color: var(--title-tex-color);
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 36px;
+    line-height: 1.2;
     text-transform: uppercase;}
 
 /* feature */
@@ -79,7 +80,8 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;}
+    text-align: center;
+    text-transform: uppercase;}
 
 .feature-list .text {
     font-size: 14px;
@@ -90,7 +92,8 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;}
+    text-align: center;
+    text-transform: uppercase;}
 
 .worker-list .text {
     font-size: 16px;
@@ -115,19 +118,46 @@ ul {
     cursor: pointer;}
 
 
+.button.secondary{
+    color: var(--title-tex-color);
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+
+
 /* footer */
 
 .addres-nav .link {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;}
 
 .addres-nav .add-link {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     color: var(--primary-bg-color);
     text-decoration: none;}
+
+.addres-nav .link:hover,
+.addres-nav .link:focus {
+    color: var(--accent-color);}
+
+.addres-nav .add-link:hover,
+.addres-nav .add-link:focus {
+    color: var(--accent-color);
+}
+    
 
 .footer {
     background-color: #2F303A;}
@@ -140,10 +170,9 @@ ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    }
+    text-transform: uppercase;}
 
 .work-list .text {
     color: var(--primary-tex-color);
     font-size: 16px;
-    line-height: 1.8;
-}
+    line-height: 1.8;}
