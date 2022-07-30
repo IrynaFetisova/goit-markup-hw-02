@@ -93,7 +93,7 @@ ul {
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
-    text-transform: uppercase;}
+    }
 
 .worker-list .text {
     font-size: 16px;
@@ -170,7 +170,7 @@ ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-transform: uppercase;}
+    }
 
 .work-list .text {
     color: var(--primary-tex-color);
